@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Green Leaf Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🍽️ Green Leaf Restaurant</h1>
+<p>Fresh • Healthy • Delicious</p>
+
+<hr>
+
+<h2>Menu</h2>
+<img src="images/biryani.jpg" width="200">
+<p>Veg Biryani - ₹180</p>
+
+<img src="images/paneer.jpg" width="200">
+<p>Paneer Butter Masala - ₹220</p>
+
+<img src="images/dosa.jpg" width="200">
+<p>Masala Dosa - ₹90</p>
+
+<hr>
+
+<h2>Events</h2>
+<p>🎶 Live Music Night</p>
+<p>🎉 Weekend Family Offers</p>
+
+<hr>
+
+<h2>Table Reservation</h2>
+
+<form onsubmit="reserveTable(event)">
+    <input type="text" placeholder="Name" required><br><br>
+    <input type="number" placeholder="Guests" required><br><br>
+    <input type="date" required><br><br>
+    <button type="submit">Reserve</button>
+</form>
+
+<p id="message"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
